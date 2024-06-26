@@ -5,7 +5,9 @@
  * @copyrigh (c) 2023 
  * @license  Open Software License v. 3.0 (OSL-3.0)
  */
-header("Access-Control-Allow-Origin: *"); // Isso permite solicitações de qualquer origem
+
+ //atualizacoes feita por Kaio 
+header("Access-Control-Allow-Origin: *"); // Permite solicitações de qualquer origem
 header("Access-Control-Allow-Methods: GET, POST, OPTIONS"); // Métodos HTTP permitidos
 header("Access-Control-Allow-Headers: Content-Type, Authorization"); // Cabeçalhos permitidos, incluindo Authorization
 error_reporting(E_ALL & ~E_WARNING & ~E_NOTICE);

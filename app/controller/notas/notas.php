@@ -100,7 +100,7 @@ Class notas extends Controller{
 
                 "ID" => trim($notas->ACD_DisciplinaSigla),
                 "DESCRICAO" => trim($notas->ACD_DisciplinaNome),
-                "MEDIA" => (int) $notas->ACD_AlunoHistoricoItemMediaFinal,
+                "MEDIA" => (double) $notas->ACD_AlunoHistoricoItemMediaFinal,
                 "PROVAS" => $provas
             );
 
